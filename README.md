@@ -20,3 +20,5 @@ Final Report
 Sources:
 
 Memcachier setup code in the checkAccess.php file is directly from Heroku's doc/article here https://devcenter.heroku.com/articles/memcachier#php
+
+Links to the Boostrap and JS Library in the navBar.php and studentNavBar.php are directly from W3Schools at https://www.w3schools.com/bootstrap5/bootstrap_get_started.php
