@@ -17,3 +17,6 @@ Final CS Presentation
 
 Final Report
 
+Sources:
+
+Memcachier setup code in the checkAccess.php file is directly from Heroku's documentation here https://devcenter.heroku.com/articles/memcachier#php
