@@ -11,9 +11,7 @@ Tedy Barber, Software Developer, CS Faculty Point of Contact
 
 Coming soon :
 
-Final Poster
-
-Final CS Presentation
+Code
 
 Final Report
 
