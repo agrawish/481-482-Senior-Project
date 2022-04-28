@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flashcard sample</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="script.js"></script>
+        <style>
+          .arrow{
+            background-color: #000;
+          } 
+          </style> 
+        
+    </head>
+<body>
+   <p>HEY</p>
+
+<div class="container">
+
+        <div class="modal" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Modal body text goes here.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editCard">
+          Edit
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="editCard" tabindex="-1" aria-labelledby="editSelectedCard" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Editing Mode</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                
+                <div class="row was-validated">
+                  <div class="col m-2">
+                    <div class="form-floating mb-2 ">
+                      <input type="text" required class="form-control" name= "cardTerm" placeholder="Flashcard Term">
+                      <label for="cardTerm">Term</label>
+                    </div>
+                  </div>
+                  <div class="col m-2">
+                    <div class="form-floating mb-2">
+                      <input type= "text" required class="form-control" name= "cardDef" placeholder="Flashcard Definition">
+                      <label for="cardDef">Definition</label>  
+                    </div>
+                  </div>
+                  <div class="col m-2">
+                    <select class="form-select" aria-label="selectDifficultyLevel" required name="cardDifficulty">
+                      <option selected value="easy">Easy (Default)</option>
+                      <option value="medium">Medium</option>
+                      <option value="Hard">Hard</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary" name="saveEdit">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+</div>
+
+</body>
+<!-- 
+    <div class="card text-center w-50 h-50 border border-primary border border-2 rounded">
+                
+                <div class="card-body bg-light">
+                    <div class="text-primary">
+                           <p>Flashcard definition</p> 
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="btn btn-outline-primary">Flip</button>
+                    <button type="button" class="btn btn-outline-success">I got it</button>
+                    
+                </div>
+            </div>           
+      </div>
+
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card text-center w-50 h-50 border border-primary border border-2 rounded">
+                
+                <div class="card-body bg-light">
+                    <div class="text-primary">
+                           <p>Flashcard definition11111</p> 
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="btn btn-outline-primary">Flip</button>
+                    <button type="button" class="btn btn-outline-success">I got it</button>
+                    
+                </div>
+            </div> 
+
+          </div>
+          <div class="carousel-item">
+            <div class="card text-center w-50 h-50 border border-primary border border-2 rounded">
+                
+                <div class="card-body bg-light">
+                    <div class="text-primary">
+                           <p>Flashcard definition22222</p> 
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="btn btn-outline-primary">Flip</button>
+                    <button type="button" class="btn btn-outline-success">I got it</button>
+                    
+                </div>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <div class="card text-center w-50 h-50 border border-primary border border-2 rounded">
+                
+                <div class="card-body bg-light">
+                    <div class="text-primary">
+                           <p>Flashcard definition33333</p> 
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="btn btn-outline-primary">Flip</button>
+                    <button type="button" class="btn btn-outline-success">I got it</button>
+                    
+                </div>
+            </div>   
+          </div>
+        </div>
+        <button  class="carousel-control-prev  " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon arrow"></span>
+          
+        </button>
+        <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon arrow"></span>
+          
+        </button>
+
+-->
+
+</html>
+
